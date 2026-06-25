@@ -1,0 +1,13 @@
+name: 'snowduckai_testbed'
+version: '1.0.0'
+config-version: 2
+
+profile: 'snowduckai_testbed'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+log-path: "logs"
+
+models:
+  snowduckai_testbed:
+    +materialized: view
