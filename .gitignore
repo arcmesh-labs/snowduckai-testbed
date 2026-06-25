@@ -5,4 +5,5 @@ dbt_packages/
 snowduckai.yml
 .mcp
 config.md
-.snowduckai
+
+.snowduckai/config.yml
